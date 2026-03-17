@@ -1,0 +1,58 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch and training files
+*.pth
+*.pt
+weights/
+checkpoints/
+logs/
+
+# Large dataset files (if downloading actual data)
+datasets/*/images/
+datasets/*/annotations/*.json
+!datasets/*/annotations/.gitkeep
+
+# Model outputs
+*.pb
+*.onnx
+*.tflite
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+*.csv.tmp
+
+# OS files
+Thumbs.db
+.directory
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
