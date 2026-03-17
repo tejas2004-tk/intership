@@ -1,0 +1,6 @@
+Model,FLOPs (G),Latency (ms),Power (W),Throughput (fps),Energy/Image (mJ),Edge Deployable
+YOLOv11-Nano,12.6,6.9,2.4,145,16.6,Yes
+YOLOv8-Nano,12.8,7.1,2.5,140,17.9,Yes
+EfficientDet-D0,7.8,4.9,1.9,160,11.9,Yes
+Faster-RCNN-MobileNet,83.0,22.3,8.5,45,189.0,No
+AgroKD-Net,5.6,5.7,1.5,175,8.6,Yes

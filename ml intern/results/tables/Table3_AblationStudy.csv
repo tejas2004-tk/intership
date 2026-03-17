@@ -1,0 +1,9 @@
+Model Configuration,mAP50,mAP75,Params(M),FLOPs(G),Inference(ms),Improvement(%)
+Baseline Student Network,0.58,0.45,4.2,8.4,12.5,0.0
++ Lightweight Backbone,0.62,0.5,2.8,5.8,8.2,6.9
++ Multi-Scale Aggregation,0.67,0.58,2.8,5.6,7.8,15.5
++ EAPD Loss,0.69,0.6,2.9,5.7,7.9,19.0
++ GBPR Loss,0.71,0.63,2.9,5.8,8.1,22.4
++ SCD Loss,0.73,0.65,3.0,5.9,8.2,25.9
++ DSRD Loss,0.74,0.66,3.1,6.0,8.3,27.6
+Full AgroKD-Net,0.76,0.68,2.8,5.6,7.8,31.0
